@@ -1,12 +1,10 @@
 user_input = input('what is the name of month?')
 sea = 'Current season is'
 a = ['winter','spring','autumn','summer']
-wi = ['january','december','february', 1, 12, 02]
+wi = ['january','december','february', 1, 12, 2]
 sp = ['march','april','may', 3, 4, 5]
 su = ['june','jule','august', 6, 7, 8]
 au = ['september', 'october', 'november', 9, 10, 11]
-
-
 
 def month_qwi():
     if user_input in wi:
@@ -18,6 +16,4 @@ def month_qwi():
     elif user_input in su:
         print sea, a[3]
 
-
 month_qwi()
-
